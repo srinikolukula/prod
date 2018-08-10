@@ -9,7 +9,7 @@ pipeline {
 
             steps {
                     
-                    sh 'cd /web'
+                    sh 'cd /opt/web'
                     sh 'mvn compile'
                 
             }
