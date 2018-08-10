@@ -18,8 +18,7 @@ pipeline {
         stage ('Package Stage') {
 
             steps {
-                    sh 'cd /var/lib/jenkins/workspace/pipeline/web'
-                    sh 'mvn package'
+                    sh 'mvn -f /var/lib/jenkins/workspace/pipeline/web/pom.xml package'
                 
             }
         }
