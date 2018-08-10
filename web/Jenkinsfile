@@ -9,7 +9,7 @@ pipeline {
 
             steps {
                     
-                    dir("/opt/web") {
+                    dir("/root/opt/web") {
 
                     sh 'mvn compile'
                 }
