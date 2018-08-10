@@ -9,10 +9,9 @@ pipeline {
 
             steps {
                     
-                    dir("/root/opt/web") {
-
-                    sh 'mvn compile'
-                }
+                    
+                    sh 'mvn -f /var/lib/jenkins/workspace/pipeline/web/pom.xml mvn compile'
+                
             }
         }
 
