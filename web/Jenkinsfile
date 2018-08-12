@@ -9,7 +9,7 @@ pipeline {
 
             steps {
                      
-                    sh 'mvn /opt/web/pom.xml compile'
+                    sh 'mvn -f /var/lib/jenkins/workspace/pipeline/pom.xml compile'
                 
             }
         }
