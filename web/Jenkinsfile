@@ -8,9 +8,8 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                    
-                    
-                    sh 'mvn web/pom.xml compile'
+                     
+                    sh 'mvn /web/pom.xml compile'
                 
             }
         }
