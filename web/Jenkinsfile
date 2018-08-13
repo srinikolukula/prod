@@ -17,7 +17,7 @@ pipeline {
 
             steps {
                     
-                   sh 'mvn -f /web/pom.xml compile'
+                   sh 'mvn -f compile'
                 
             }
         }
