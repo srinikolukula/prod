@@ -5,6 +5,13 @@ pipeline {
     }
 
     stages {
+      stage ('checkout code') {
+         steps {
+                git url: 'https://github.com/srinikolukula/prod.git'
+             }
+           }
+
+
         stage ('Compile Stage') {
 
             steps {
@@ -17,7 +24,8 @@ pipeline {
         stage ('Package Stage') {
 
             steps {
-                    sh 'mvn /web/package'
+                    sh 'cd /web'
+                    sh 'mvn package'
                 
             }
         }
