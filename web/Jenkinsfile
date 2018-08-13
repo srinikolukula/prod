@@ -9,7 +9,7 @@ pipeline {
 
             steps {
                      
-                    sh 'mvn -f /var/lib/jenkins/workspace/pipeline/web/pom.xml compile'
+                    sh 'mvn compile'
                 
             }
         }
@@ -17,7 +17,7 @@ pipeline {
         stage ('Package Stage') {
 
             steps {
-                    sh 'mvn -f /var/lib/jenkins/workspace/pipeline/web/pom.xml package'
+                    sh 'mvn package'
                 
             }
         }
