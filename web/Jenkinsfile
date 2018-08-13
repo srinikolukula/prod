@@ -9,7 +9,7 @@ pipeline {
 
             steps {
                      
-                    sh 'mvn compile'
+                    sh 'mvn /web/compile'
                 
             }
         }
@@ -17,7 +17,7 @@ pipeline {
         stage ('Package Stage') {
 
             steps {
-                    sh 'mvn package'
+                    sh 'mvn /web/package'
                 
             }
         }
