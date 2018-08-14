@@ -18,8 +18,9 @@ pipeline {
         stage ('Package Stage') {
 
             steps {
-                   
+                    dir('web') { 
                     sh 'mvn package'
+            }
                 
             }
         }
