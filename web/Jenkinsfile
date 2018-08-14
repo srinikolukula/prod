@@ -9,7 +9,7 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                   dir(web) { 
+                   dir('web') { 
                    sh 'mvn compile'
                 }
             }
