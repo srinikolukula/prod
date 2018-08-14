@@ -5,19 +5,12 @@ pipeline {
     }
 
     stages {
-      stage ('checkout code') {
-         steps {
-                git url: 'https://github.com/srinikolukula/prod.git'
-               echo "url"
-             }
-           }
-
-
+     
         stage ('Compile Stage') {
 
             steps {
                     
-                   sh 'mvn -f /var/lib/jenkins/workspace/pipeline/web/pom.xml compile'
+                   sh 'mvn compile'
                 
             }
         }
@@ -26,7 +19,7 @@ pipeline {
 
             steps {
                    
-                    sh 'mvn -f /var/lib/jenkins/workspace/pipeline/web/pom.xml package'
+                    sh 'mvn package'
                 
             }
         }
