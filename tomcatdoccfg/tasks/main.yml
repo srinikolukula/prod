@@ -31,7 +31,8 @@
   command: docker start "{{ item }}"
   with_items:
     - webapp1
-    - webapp2 
+    - webapp2
+    - hpptlb 
 - name: Register IP Address of Webapp server
   command: docker inspect -f '{"{ .NetworkSettings.Networks.brdgnet4.IPAddress }"}' "{{ item }}"
   register: r
