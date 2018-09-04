@@ -1,9 +1,3 @@
-ansible-playbook main5.yml
-vi main6.yml
-ansible-playbook main5.yml
-vi main6.yml 
-cat firstplay.yml
-vi main5.yml 
 vi main6.yml 
 ansible-playbook main5.yml
 cat main6
@@ -997,4 +991,10 @@ git status
 ls
 git add .
 git commit -m "commiting ansible files" .
+exit
+cd .ssh
+ls
+vi id_rsa
+cd .ssh
+cd ..
 exit

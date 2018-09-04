@@ -1,7 +1,7 @@
 ---
 - name: Copy LB config file to tmp
   template:
-    src: /home/tadmin/httpdokcfg/templates/lb_config.conf 
+    src: /httpdokcfg/templates/lb_config.conf 
     dest: /tmp/lb_config.conf
 
 - name: Create Apache WebServer httpd 2.4 Docker Image
