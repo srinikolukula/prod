@@ -1,0 +1,13 @@
+---
+- name: Install Docker on clients
+  hosts: webserver
+  become: true
+  tasks:
+  - name: Install Docker
+    yum: 
+      name: docker
+      state: latest
+  - name: Restart Docker
+    service:
+      name: docker
+      state: restarted

@@ -1,0 +1,8 @@
+  - name: import to other yml
+    yum:
+      name: docker
+      state: latest
+  - name: Restart Docker
+    service:
+      name: docker
+      state: restarted

@@ -1,0 +1,16 @@
+---
+- name: UnInstall Docker on clients
+  hosts: webserver
+  become: true
+  tasks:
+  - name: UnInstall Docker
+    yum:
+      name: docker
+      state: removed
+    notify: Restart apache Service
+  handlers:
+  - name: Restart apache Service
+    service:
+      name: httpd
+      state: started
+ 
