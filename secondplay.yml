@@ -1,14 +1,12 @@
 ---
 - hosts: webserver
   become: true
-#  vars:
-#    pkg_name: "docker"
   tasks:
   - name: Install Docker
     yum:
-      name: httpd
-      state: installed
-#  - name: Restart Docker
-#    service:
-#      name: "{{ pkg_name }}"
-#      state: restarted
+      name: "{{ pkg_name }}"
+      state: latest
+  - name: Restart Docker
+    service:
+      name: "{{ pkg_name }}"
+      state: restarted

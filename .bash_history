@@ -1,374 +1,3 @@
-vi main6.yml 
-ansible-playbook main5.yml
-cat main6
-cat main6.yml 
-cat firstplay.yml
-vi firstplay.yml
-vi main6.yml 
-ansible-playbook main5.yml
-vi main6.yml 
-ansible-playbook main5.yml
-vi firstplay.yml
-vi main5.yml 
-vi main6.yml 
-vi main5.yml 
-cat main5.yml 
-cat main6.yml 
-vi main5.yml 
-ansible-playbook -i hosts main5.yml 
-vi main6.yml 
-ansible-playbook -i hosts main5.yml 
-vi main6.yml 
-ansible-playbook -i hosts main5.yml 
-vi main6.yml 
-vi main5.yml 
-vi main6.yml 
-ansible-playbook -i hosts main5.yml 
-ansible-playbook -i hosts main5.yml --check-syntax
-ansible --help
-ansible-playbook -i hosts main5.yml --syntax-check
-vi main5.yml 
-ansible-playbook -i hosts main5.yml --syntax-check
-vi main5.yml 
-ansible-playbook -i hosts main5.yml --syntax-check
-ansible-playbook -i hosts main5.yml 
-ansible clients -m ping
-ls
-vi hosts
-ansible webserver -m ping
-vi hosts
-ansible -i hosts webserver -m ping
-vi firstplay.yml
-vi firstvarplay.yml
-vi firstplay.yml
-vi firstvarplay.yml 
-ansible -i hosts firstvarplay.yml 
-ansible -i hosts webserver firstvarplay.yml 
-clear
-ansible -i hosts webserver firstvarplay.yml 
-clear
-ansible-playbook -i hosts webserver firstvarplay.yml 
-vi firstvarplay.yml 
-vi hosts
-ansible-playbook -i hosts webserver firstvarplay.yml 
-vi firstvarplay.yml 
-vi hosts
-cat hosts
-ansible-playbook -i hosts firstvarplay.yml 
-vi firstvarplay.yml 
-ansible-playbook -i hosts firstvarplay.yml 
-vi firstvarplay.yml 
-vi firstplay.yml 
-vi firstvarplay.yml 
-ansible-playbook -i hosts webserver firstvarplay.yml 
-ansible-playbook -i hosts firstvarplay.yml 
-vi firstvarplay.yml 
-ansible-playbook -i hosts firstvarplay.yml 
-vi secondplay.yml
-vi hosts
-vi firstvarplay.yml 
-vi secondplay.yml 
-ansible-playbook -i hosts firstvarplay.yml 
-vi firstvarplay.yml 
-vi hosts
-vi firstvarplay.yml 
-ansible-playbook -i hosts firstvarplay.yml 
-vi firstvarplay.yml 
-vi thirdvar.yml
-vi firstvarplay.yml 
-vi thirdvar.yml 
-ansible-playbook -i hosts third.yml 
-ansible-playbook -i hosts thirdvar.yml 
-ansible-playbook -i hosts thirdvar.yml --extra-vars "pkg_name=docker"
-vi thirdvar.yml 
-ls
-vi firstplay.yml
-vi handlerdemo.yml
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml 
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml 
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml 
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml 
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml 
-clear
-vi handlerdemo.yml 
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml 
-clear
-vi handlerdemo.
-vi handlerdemo.yml
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml
-ansible-playbook -i hosts handlerdemo.yml 
-ansible -i hosts -m ping
-clear
-ansible -i hosts -m ping webserver
-vi hosts
-ansible -i hosts -m ping webserver
-clear
-ansible -i hosts -m ping webserver
-ls
-vi thirdvar.yml 
-vi secondplay.yml
-vi handlerdemo.
-vi hand*.retry
-rm -rf handlerdemo.retry
-ls
-clear
-ls
-vi handlerdemo.yml 
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml 
-ansible-playbook -i hosts handlerdemo.yml 
-vi handlerdemo.yml 
-netstat -anp | grep ansible
-ps -eaf | grep ansible
-netstat -anp | grep 1476
-yum install netstat
-su -
-ps -eaf | grep ansible
-netstat -anp | grep 1564
-netstat -an | grep 1564
-netstat -a | grep 1564
-netstat -at
-netstat -l
-netstat -ap | grep 
-netstat -ap | grep 1564
-netstat -anp | grep 1564
-netstat -anp | grep ansible
-clear
-ansible
-clear
-ansible-galaxy init docinstall
-ls
-cd dockinstall
-ls
-cd docinstall/
-ls
-vi defaults/
-ls
-cd defaults/
-ls
-vi main.yml 
-ls
-clear
-ls
-cd ..
-ls
-cd files
-ls
-cd ..
-clear
-ls
-cd tasks
-ls
-vi main.yml 
-cd ..
-cd  handlers/
-ls
-vi main.yml 
-cd ..
-ls
-cd ..
-ls
-cd docinstall/
-ls
-clear
-ls
-vi main.yml
-cd handlers/
-ls
-vi main.yml 
-cd ..
-cd tasks/
-ls
-vi main.yml 
-cd ..
-cd  handlers/
-ls
-vi main.yml 
-ls
-vi main.yml 
-cd ..
-cd tasks/
-vi main.yml 
-clear
-ls
-cd ..
-cat main.yml
-pwd
-ansible-playbook -i /home/tadmin/docinstall/hosts main.yml
-vi main.yml 
-ansible-playbook -i /home/tadmin/docinstall/hosts webserver main.yml
-ansible-playbook -i hosts main.yml
-ls
-clear
-ls
-ansible-playbook -i hosts main.yml
-vi hosts
-vi main.yml 
-ansible-playbook -i hosts main.yml --syntax-check
-pwd
-cat main.yml 
-cd ..
-pwd
-ls
-vi main
-vi main.yml
-cd docinstall/
-ls
-rm -rf main.yml
-ls
-cd ..
-ansible-playbook -i hosts main.yml
-ls
-vi hosts
-ansible-playbook -i hosts main.yml
-ansible -i hosts -m ping
-ansible -i hosts webserver -m ping
-vi hosts
-ansible -i hosts -m ping
-ansible -i hosts webserver -m ping
-clear
-ansible-playbook -i hosts main.yml
-cd /etc/yum.repos.d/
-ls
-vi jenkins.repo 
-ls
-clear
-cd ..
-pwd
-whoami
-su - tadmi
-su - tadmin
-cd /home/tadmin
-ls
-clear
-cd docinstall/
-ls
-cd tasks/
-ls
-vi main.yml 
-cd ..
-ansible-playbook -i hosts main.yml
-cd ..
-ansible-playbook -i hosts main.yml
-cd docinstall/
-cd tasks/
-ls
-vi main.yml 
-cd ..
-ansible-playbook -i hosts main.yml
-cd ..
-ansible-playbook -i hosts main.yml
-ls
-cat main.yml
-cd docinstall/
-ls
-cd defaults/
-ls
-vi main.yml 
-cd ..
-ls
-cd tasks/
-ls
-cat main.yml 
-cd ..
-cd handlers/
-cat main.yml 
-ls
-vi thirdvar.yml
-vi secondplay.yml 
-ansible-playbook -i hosts secondplay.yml
-vi secondplay.yml 
-ansible-playbook -i hosts secondplay.yml
-cat hosts
-vi hosts
-ansible-playbook -i hosts secondplay.yml
-vi secondplay.yml
-ansible-playbook -i hosts secondplay.yml
-vi secondplay.yml
-ansible-playbook -i hosts secondplay.yml
-vi secondplay.yml
-ansible-playbook -i hosts secondplay.yml
-vi hosts
-vi secondplay.yml
-ansible-playbook -i hosts secondplay.yml
-vi secondplay.yml
-ansible-playbook -i hosts secondplay.yml
-vi secondplay.yml
-vi main.yml
-cd docinstall/
-ls
-vi tasks/
-cd tasks/
-vi main.yml 
-cd ../..
-ansible-playbook -i hosts main.yml
-cd docinstall/tasks/
-vi main.yml 
-cd ../..
-ansible-playbook -i hosts main.yml
-cd docinstall/tasks/
-vi main.yml 
-cd ../..
-vi m
-vi main.yml
-ansible-playbook -i hosts main.yml
-vi main
-vi main.yml 
-ls
-cd docinstall/tasks/
-vi main.yml 
-cd ../../
-ansible-playbook -i hosts main.yml
-cd docinstall/tasks/
-vi main.yml 
-cd ../../
-ansible-playbook -i hosts main.yml
-ansible -i hosts -m ping
-ansible -i hosts webserver -m ping
-ansible-playbook -i webserver hosts main.yml
-vi hosts
-ls
-cd .ssh
-ls
-vi known_hosts 
-vi id_rsa.pub 
-ls
-cd /tadmin/home
-ls
-cd ..
-pwd
-ls
-vi secondplay.yml
-ansible-playbook -i webserver hosts secondplay.yml
-ansible-playbook -i hosts secondplay.yml
-vi secondplay.yml
-ansible-playbook -i hosts secondplay.yml
-vi secondplay.yml
-ansible-playbook -i hosts secondplay.yml
-vi main.yml
-cd docinstall/tasks/
-ls
-vi main.yml 
-cd ../..
-ansible-playbook -i hosts main.yml
-cd docinstall/tasks/
 vi main.yml 
 cd ../..
 ansible-playbook -i hosts main.yml
@@ -997,4 +626,375 @@ ls
 vi id_rsa
 cd .ssh
 cd ..
+exit
+ls
+vi hosts
+cd ..
+pwd
+cd  tadmin/
+cd .ssh
+ls
+vi id_rsa
+d ..
+cd ..
+clera
+clear
+whoami
+pwd
+clear
+ls
+vi hosts
+git remote add origin https://github.com/srinikolukula/prod.git
+git add hosts
+git commit -m "changing the ip" hosts
+exit
+ls
+cd ..
+ls
+docker
+ls
+docker service create --replicas 5 -p 80:80 --name myservice nginx
+systemctl start docker
+whoami
+exit
+ls
+whoami
+ls
+cat firstplay.yml
+clear
+ls
+vi secondplay.yml
+cat secondplay.yml
+ansible-playbook -i hosts --list-tasks
+ansible-playbook -i hosts secondplay.yml --list-tasks
+ansible-playbook -i hosts secondplay.yml --start-tasks
+ansible-playbook -i hosts secondplay.yml --check
+ansible-playbook -i hosts secondplay.yml --step
+ansible-playbook -i hosts secondplay.yml --start-at-task
+ls
+vi apachehttpd.yml
+vi hosts
+vi apachehttpd.yml 
+ansible-playbook -i hosts apachehttpd.yml 
+vi apachehttpd.yml 
+ansible-playbook -i hosts apachehttpd.yml 
+ping 192.168..13
+vi apachehttpd.
+rm -rf apachehttpd.retry 
+ls
+vi apachehttpd.yml 
+whoami
+cd .ssh
+ls
+vi known_hosts 
+pwd
+cd ..
+ls
+ansible-playbook -i hosts apachehttpd.yml 
+ls
+cat firstplay.yml
+ansible-playbook -i hosts firstplay.yml 
+ansible webserver -m ping
+vi hosts
+cd .ssh
+ls
+vi id_rsa.pub
+cd ..
+pwd
+whoami
+ansible webserver -m ping
+cd .ssh
+ls
+vi known_hosts 
+ansible webserver -m ping
+vi hosts
+ls
+cd ..
+pwd
+vi hosts
+ansible webserver -m ping
+ls
+pwd
+cd .ssh
+ls
+mv id_rsa idbackuprsa
+mv idrsapubbackup
+mv id_rsa.pub idrsapubbackup
+ls
+mv known_hosts backupknow
+ls
+ssh-keygen -t rsa
+ls
+cat id_rsa.pub
+cd ..
+ls
+ansible webserver -m ping
+vi backupknow
+chmod 700 .ssh/
+ansible webserver -m ping
+ls
+cd .ssh
+ls
+cd ..
+ls
+whoami
+exit
+ls
+cd /etc/ansible
+ls
+cd hosts
+vi hosts
+ls
+cd .ssh
+ls
+cd ..
+vi hosts
+vi firstplay.yml
+ansible -i hosts webserver -m ping
+ssh root@192.168.1.13
+ls
+whoami
+clear
+ls
+ansible webserver -i hosts -m ping
+ansible webserver -m ping
+ansible clients -m ping
+exit
+ls
+ansible clients -m ping
+init 0
+exit
+ls
+ansible-playbook -i hosts main.yml
+ansible-playbook -i hosts main.yml --limit @/home/tadmin/main.retry
+ls
+clear
+ls
+cd .ssh
+ls
+vi known_hosts 
+cd ..
+ansible-playbook -i hosts main.yml --limit @/home/tadmin/main.retry
+cd .ssh
+ls
+rm -rf backupknow idbackuprsa id_rsa id_rsa.pub idrsapubbackup known_hosts
+ls
+ssh-keygen -t rsa
+ls
+cat id_rsa.pub 
+cd ..
+clear
+ls
+ansible clients -m ping
+vi hosts 
+ansible webserver -m ping
+vi hosts
+ansible webserver -m ping
+ansiblle-playbook -i hosts main.yml
+ansible-playbook -i hosts main.yml
+ls
+ansible-playbook -i hosts apachehttpd.
+ansible-playbook -i hosts apachehttpd.yml
+vi apachehttpd.yml 
+ansible-playbook -i hosts apachehttpd.yml
+vi apachehttpd.yml 
+ansible-playbook -i hosts apachehttpd.yml
+vi apachehttpd.yml 
+ansible-playbook -i hosts apachehttpd.yml
+vi apachehttpd.yml 
+ansible-playbook -i hosts apachehttpd.yml
+vi apachehttpd.yml 
+ansible-playbook -i hosts apachehttpd.yml
+vi apachehttpd.yml 
+ansible-playbook -i hosts apachehttpd.yml
+vi apachehttpd.yml 
+ansible-playbook -i hosts apachehttpd.yml
+ls
+vi apachehttpd.yml
+ls
+vi hosts
+ansible-playbook -i hosts apachehttpd.yml --start-at-task
+ansible-playbook -i hosts apachehttpd.yml --list-tasks
+ansible-playbook -i hosts apachehttpd.yml --start-at-task='apache2'
+ansible-playbook -i hosts apachehttpd.yml
+ansible-playbook -i hosts apachehttpd.yml --step
+clear
+ls
+cat main5.yml 
+cat main6.yml 
+vi main5.yml 
+ansible-playbook -i hosts main5.yml 
+ls
+clear
+ls
+cat secondplay.
+cat secondplay.yml 
+vi secondplay.yml 
+vi hosts
+ansible-playbook -i hosts second.yml
+ansible-playbook -i hosts secondplay.yml
+vi hosts
+vi secondplay.yml 
+vi hosts
+ansible-playbook -i hosts secondplay.yml
+vi secondplay.yml 
+vi hosts
+ansible-playbook -i hosts secondplay.yml
+vi secondplay.yml 
+vi hosts
+cat secondplay.yml 
+ansible-playbook -i hosts secondplay.yml
+clear
+ls
+vi dbuglimit.yml
+ls
+more hosts
+more secondplay.yml
+clear
+ls
+more main.yml
+less main.yml 
+ls
+vi hosts
+ansible all -m ping
+vi hosts
+ansible webserver -m ping
+ansible 192.168.1.13 -m ping
+ansible doc-s ping
+clear
+ansible-doc-s ping
+ansible-doc -s ping
+ansible-doc-l
+ansible-doc -l
+clear
+ls
+ansible webserver -m ping
+cat host
+cat hosts
+cd .ssh
+ls
+vi known_hosts 
+ping 192.168.1.13
+cd ..
+ls
+pwd
+clear
+ls
+cd .ssh
+ls
+vi id_rsa.pub
+ls
+cd ..
+ls
+cd hosts
+vi hosts
+vi main.yml
+cd ansible
+ls
+cd /ansible
+ls
+clear
+ansible all
+clear
+ansible webserver -m ping
+ansible webserver hosts -m ping
+clear
+ansible -i hosts -m ping
+clear
+ansible -i hosts
+clear
+ansible -i hosts ping
+clear
+ansible hosts -m ping
+ansible /hosts -m ping
+cd /etc/ansible
+ls
+vi hosts
+ls
+exit
+ls
+clear
+ansible -m ping all
+ansible webserver -m ping all
+clear
+ansible webserver -m ping all
+clear
+ansible webserver -m ping
+ansible webserver -m shell -a 'hostnamectl'
+ansible webserver -m command -a 'hostnamectl'
+ansible webserver -m shell -a "sudo find / -name java | grep java-7 | grep jre"
+ansible webserver -m command -a "sudo find / -name java | grep java-7 | grep jre"
+ansible webserver -m -shell -a "free -m"
+ansible webserver -m shell -a "free -m"
+init 0
+exit
+ls
+ansible-doc -s shell
+ansible-doc -s command
+ls
+df -h
+ansible websrv1 -m shell -a "df -h > disksize1.txt"
+ansible webserver -m shell -a "df -h > disksize2.txt"
+ansible webserver -m command -a 'free -m'
+ls
+clear
+ls
+vi filetocopy.txt
+ls
+ansible webserver -m copy -a "src=/home/tadmin/filetocopy.txt dest=/tmp/filetocopy.txt owner=tadmin group=tadmin mode=0777" -b
+clear
+ls
+cat firstplay.yml
+ansible-playbook -i hosts firstplay.yml
+ls
+cat main5.yml 
+ansible-playbook -i hosts main5.yml 
+ls
+clear
+ls
+cat main.yml 
+cat handlerdemo.yml 
+ansible-playbook -i hosts handlerdemo.yml 
+ls
+cat handlerdemo.
+cat handlerdemo.yml
+exit
+ls
+git remote add origin https://github.com/srinikolukula/prod.git
+ls -a
+cd .ansible
+ls
+cd cp
+ls
+cd ..
+clear
+ls
+cd tmp
+ls
+cd ..
+cear
+clear
+ls
+cd ..
+clear
+ls
+cd hosts
+git branch | grep \* | cut -d ' ' -f2
+pwd
+whoami
+clear
+ansible-playbook -i hosts main.yml
+clear
+ls
+git show
+git add hosts
+git branch
+git branch | grep \* | cut -d '' -f2
+git branch | grep \* | cut -d ' ' -f2
+git push -u origin master
+git branch
+git checkout ansiblebranch
+git add .
+git commit -m "adding files on Dec2018" .
+whoami
 exit

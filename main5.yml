@@ -2,5 +2,6 @@
 - hosts: webserver    
   become: true    
   tasks:      
-    - import_tasks: main6.yml
+     - include: main6.yml
+#    - import_tasks: main6.yml
 
